@@ -11,10 +11,6 @@ namespace MiniGit.Console
     {
         static void Main(string[] args)
         {
-            var c = new Class1();
-            var value = c.AStart("Apple pie");
-            System.Console.WriteLine("Hash: {0}", value);
-            System.Console.Read();
         }
     }
 }

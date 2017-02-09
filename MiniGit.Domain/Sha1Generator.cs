@@ -1,5 +1,7 @@
 ﻿using System;
 using System.IO;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace MiniGit.Domain
 {
@@ -7,7 +9,16 @@ namespace MiniGit.Domain
     {
         public string GenerateHash(Stream stream)
         {
-            throw new NotImplementedException();
+            SHA1 sha = new SHA1CryptoServiceProvider();
+            return ByteArrayToString(sha.ComputeHash(stream));
+        }
+
+        public static string ByteArrayToString(byte[] ba)
+        {
+            var hex = new StringBuilder(ba.Length * 2);
+            foreach (byte b in ba)
+                hex.AppendFormat("{0:x2}", b);
+            return hex.ToString();
         }
     }
 }

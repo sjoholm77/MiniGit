@@ -13,7 +13,7 @@ namespace MiniGit.Domain
             return ByteArrayToString(sha.ComputeHash(stream));
         }
 
-        public static string ByteArrayToString(byte[] ba)
+        private static string ByteArrayToString(byte[] ba)
         {
             var hex = new StringBuilder(ba.Length * 2);
             foreach (byte b in ba)

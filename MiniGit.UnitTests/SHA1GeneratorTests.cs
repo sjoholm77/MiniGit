@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,5 @@ namespace MiniGit.UnitTests
             var stream = new MemoryStream(Encoding.UTF8.GetBytes("Apple pie"));
             Assert.Equal(APPLE_PIE_HASH, sut.GenerateHash(stream));
         }
-
     }
 }

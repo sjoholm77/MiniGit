@@ -1,7 +1,6 @@
 ﻿using System.IO;
-using MiniGit.Domain;
 
-namespace MiniGit.UnitTests
+namespace MiniGit.Domain
 {
     public class Commiter
     {

@@ -23,15 +23,4 @@ namespace MiniGit.UnitTests
             mockedFileSystemHandler.Verify(x => x.CreateDirectory(hash.Substring(0, 2)));
         }
     }
-
-    public class Commiter
-    {
-        public Commiter(IFileSystemHandler fileSystemHandler)
-        {            
-        }
-
-        public void Commit(MemoryStream memoryStream)
-        {
-        }
-    }
 }

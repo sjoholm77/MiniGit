@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using System.IO;
 using System.Text;
-using System.Threading.Tasks;
-using Castle.DynamicProxy.Generators.Emitters.SimpleAST;
 using MiniGit.Domain;
 using Xunit;
 
-namespace MiniGit.UnitTests
+namespace MiniGit.UnitTests.Domain
 {
     public class Sha1GeneratorTests
     {

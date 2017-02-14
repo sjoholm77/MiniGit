@@ -40,7 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commiter.cs" />
     <Compile Include="FileSystemHandler.cs" />
     <Compile Include="IFileSystemHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

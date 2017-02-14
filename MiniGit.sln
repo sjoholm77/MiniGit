@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGit.Console", "MiniGit.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGit.UnitTests", "MiniGit.UnitTests\MiniGit.UnitTests.csproj", "{6BFF30E0-DED5-43C1-A026-EBA903A89746}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGit.Command", "MiniGit.Command\MiniGit.Command.csproj", "{57732BCE-2C97-47BA-B61C-1D31596275A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6BFF30E0-DED5-43C1-A026-EBA903A89746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BFF30E0-DED5-43C1-A026-EBA903A89746}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BFF30E0-DED5-43C1-A026-EBA903A89746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57732BCE-2C97-47BA-B61C-1D31596275A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57732BCE-2C97-47BA-B61C-1D31596275A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57732BCE-2C97-47BA-B61C-1D31596275A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57732BCE-2C97-47BA-B61C-1D31596275A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
